@@ -47,5 +47,16 @@ public class EscapeSequence {
         System.out.println("Escape Sequences :" + "\tThis is for TAB");
 
         System.out.print("Escape Sequences :" + "This is without TAB");
+
+        //EscapeSequence more examples :
+            System.out.println("\'escape sequence\'");
+            System.out.println("\"escape sequence \"");
+            System.out.println("\nescape sequence\n in java\\");
+            System.out.println("\nescape sequence \r in java\\");
+            System.out.println("\bescape sequence ");
+            System.out.println("escape ");
+
+
+
     }
 }
