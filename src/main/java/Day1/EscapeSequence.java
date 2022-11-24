@@ -19,17 +19,16 @@ public class EscapeSequence {
         // continue
 
 
+        /**Single quote : '\''
+         Double quote : '\"'
+         Backslash : '\\'
+         Newline : '\n'
+         Carriage return : '\r'
+         Backspace : '\b'
+         Form feed : '\f'
+         Tab : '\t'
 
-        /*Single quote : '\''
-        Double quote : '\"'
-        Backslash : '\\'
-        Newline : '\n'
-        Carriage return : '\r'
-        Backspace : '\b'
-        Form feed : '\f'
-        Tab : '\t'
-
-        */
+         */
         System.out.println("Welcome to \'CLARUSWAY SDET Course\'.");
         System.out.println("Welcome to \"CLARUSWAY SDET Course\".");
 
@@ -42,20 +41,19 @@ public class EscapeSequence {
         System.out.println("This is for BACKSPACE \bBUTTON");
         System.out.println("This is for NO-BACKSPACE BUTTON");
 
-        System.out.println("This" +  "\f is an" + " implementation of " + "formfeed");
+        System.out.println("This" + "\f is an" + " implementation of " + "formfeed");
 
         System.out.println("Escape Sequences :" + "\tThis is for TAB");
 
         System.out.print("Escape Sequences :" + "This is without TAB");
 
         //EscapeSequence more examples :
-            System.out.println("\'escape sequence\'");
-            System.out.println("\"escape sequence \"");
-            System.out.println("\nescape sequence\n in java\\");
-            System.out.println("\nescape sequence \r in java\\");
-            System.out.println("\bescape sequence ");
-            System.out.println("escape ");
-
+        System.out.println("\'escape sequence\'");
+        System.out.println("\"escape sequence \"");
+        System.out.println("\nescape sequence\n in java\\");
+        System.out.println("\nescape sequence \r in java\\");
+        System.out.println("\bescape sequence ");
+        System.out.println("escape ");
 
 
     }
